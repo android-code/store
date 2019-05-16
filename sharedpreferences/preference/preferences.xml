@@ -1,0 +1,17 @@
+<!-- PreferenceScreen must be parent -->
+<androidx.preference.PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        app:key="pref1"
+        app:title="Some title"
+        app:summary="More details"/>
+
+    <SwitchPreferenceCompat
+        app:key="pref2"
+        app:title="Some message"
+        app:summary="More details"/>
+
+    <!-- use more preferences from Preference class and subclasses -->
+
+</androidx.preference.PreferenceScreen>
